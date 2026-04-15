@@ -133,8 +133,9 @@ font-size:20px;
 header{
     flex-direction: column;
     align-items: center;
-    padding: 15px 2px;
-    width:auto;
+    padding: 15px 0px;
+    width:100%;
+   overflow: hidden;
   }
    header ul {
     display: flex;
@@ -143,9 +144,11 @@ header{
     gap: 2px;             
     padding: 10px 0;
     width: 100%;
+    margin:0;
+    list-style: none;
   }
    header ul li a {
-    padding: 6px 8px;    
+    padding: 6px 7px;    
     font-size: 12px;      
     white-space: nowrap;  
   }
