@@ -47,9 +47,10 @@ header ul li a:hover {
   padding: 6px 15px;
 }
 .title{color: white;
-      margin:0;
-       text-align:left;
-      }
+  width: auto; 
+  margin-left: auto;  
+  margin-right: 15%;   
+  text-align: right;}
 th{background:#E8B7C8;}
 td{background:#a7d8ff;
    text-align:center;
