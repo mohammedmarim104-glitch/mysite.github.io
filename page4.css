@@ -1,0 +1,179 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html, body{
+  overflow-x: hidden;
+}
+body {
+    background-image:url("back3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+  header{
+         padding:10px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+       }
+    header ul{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          list-style: none;
+         }
+header ul li{
+             margin-right: 30px;
+            }
+header ul li a {
+  padding: 6px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+header ul li a:hover {
+  background: #fff;
+  color: #000;
+}
+.contact{
+ background: #fff;
+  color: #000;
+  border-radius: 50px;
+  padding: 6px 15px;
+
+}
+.title{color: white;
+   width: 800px;
+   text-align:right;
+    }
+
+form div{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color:white;
+}
+
+input{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+section{display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding-top: 10px;
+}
+ 
+form{
+  background: rgba(168, 92, 123, 0.2); 
+  backdrop-filter: blur(10px);
+   padding: 20px;
+  border-radius: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+ box-shadow: 0 0 20px rgba(0,0,0,0.2);
+font-size: 18px;
+}
+
+form input{
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  
+  outline: none;
+  font-size: 15px;
+}
+
+form input:focus{
+  border: 2px solid #D18AA6;
+}
+
+form label{
+  color: white;
+  font-size: 14px;
+}
+
+form input[type="submit"]{
+  background: #D18AA6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form input[type="submit"]:hover{
+  background: #A85C7B;
+}  
+ .end{background:#E8B7C8;
+font-size:20px;
+     width:100%;
+     text-align:center;
+     color:white;
+     padding:30px 100px;
+     position: fixed;
+  bottom: 0;
+  left: 0;
+     }
+    
+@media(max-width:600px){
+header{
+    flex-direction: column;
+    align-items: center;
+  }
+ .title{
+    width:100%;
+    text-align:center;
+    margin-bottom:10px;
+  }
+
+  .form-section{
+    padding:30px 10px;
+  }
+
+  form{width: 65%;        
+        margin: auto;      
+         }
+
+  form div{
+    margin-bottom:12px;
+  }
+
+  label{
+    font-size:13px;
+  }
+
+  input{
+    font-size:14px;
+    padding:8px;
+  }
+
+  input[type="submit"]{
+    padding:10px;
+  }
+  .end{
+    position: relative;
+    padding:20px;
+    font-size:15px;
+  }
+}   
+ @media (min-width: 992px){
+
+  form{
+    margin-right: 120px;
+    margin-left: auto;
+  }
+
+}      

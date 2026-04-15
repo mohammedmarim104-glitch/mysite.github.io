@@ -1,0 +1,102 @@
+*{margin:0;
+  padding:0;
+}
+body {
+    background-image:url("back3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+  header{
+         padding:10px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+       }
+    header ul{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          list-style: none;
+         }
+header ul li{
+             margin-right: 30px;
+            }
+header ul li a {
+  padding: 6px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+header ul li a:hover {
+  background: #fff;
+  color: #000;
+}
+.courses {
+  background: #fff;
+  color: #000;
+  border-radius: 50px;
+  padding: 6px 15px;
+}
+.title{color: white;
+       width: 800px;
+       text-align:right;
+      }
+th{background:#E8B7C8;}
+td{background:#a7d8ff;
+   text-align:center;
+   
+  }
+.tab {
+      display: flex;
+      justify-content: flex-end; 
+      padding:50px;
+       }
+table{width:50%;
+      height:400px;
+     }
+.end{background:#E8B7C8;
+font-size:20px;
+     width:100%;
+     text-align:center;
+     color:white;
+     padding:30px 100px;
+     position: fixed;
+  bottom: 0;
+  left: 0;
+     }
+
+@media (max-width:600px){
+ header{
+    flex-direction: column;
+    align-items: center;
+  }
+ .title{
+    width:100%;
+    text-align:center;
+    margin-bottom:10px;
+  }
+.tab{
+    justify-content: center;
+    padding:20px;
+  }
+table{
+    width:100%;
+    height:auto;
+    font-size:13px;
+  }
+th, td{
+    padding:8px;
+  }
+.end{
+    padding:20px;
+    font-size:15px;
+  }
+
+}
+
