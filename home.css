@@ -8,32 +8,28 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    min-height: 100vh; 
+   display: flex;
+   flex-direction: column;
 }
 
   header{
-         padding:10px;
-         display: flex;
-         flex-direction: column;
-         justify-content:space-between;
-         align-items: center;
-       flex-wrap:wrap;
+        display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 20px 5%;
        }
-    header ul{ display:flex;
-               list-style:none;
-               gap:15px;
-              padding:10;
-              margin:0;
+    header ul{ display: flex;
+               list-style: none;
+               gap: 15px;
             }
-header ul li{
-             margin: 0;
-            }
+
 header ul li a {
   padding: 6px 15px;
   border-radius: 50px;
   text-decoration: none;
   color: white;
-  display: inline-block;
-  transition: 0.3s;
+   transition: 0.3s;
 }
 
 header ul li a:hover {
@@ -48,57 +44,56 @@ header ul li a:hover {
 }
 .title{color:white;
        width:auto;
-       text-align:right;}
+       }
+main {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
 .wel{
      text-align: center;
      color:white;
-     font-size:24px;
-     padding:60px 50px;
+     font-size:32px;
+     padding:20px;
+     width: 100%;
     }
-.save{font-size:16px;
+.save{font-size:18px;
       color:white;
       text-align: center;
-      padding:10px 50px;
+      padding:10px 20px;
     }
 .end{background:#E8B7C8;
 font-size:20px;
      width:100%;
      text-align:center;
      color:white;
-     padding:30px 80px;
-     position: fixed;
-  bottom: 0;
-  left: 0;
+     padding:30px 20px;
+     position: relative;
+ 
      }
 
 @media(max-width:600px){
 header{
-    align-items: center;
-    padding: 5px;
+    flex-direction: column;
+        padding: 15px;
+        gap: 15px;
   }
-   header ul li {
-    margin-right: 10px;
-  }
- .title{
-    width:100%;
+   .title{
     text-align:center;
-    margin-bottom:10px;
+    margin-bottom:5px;
   }
-main{
-    padding: 40px 15px;
-  }
+header ul {
+        gap: 10px;
+    }
 
-  .wel{font-size:20px;
-    text-align:center;
-    padding:40px 10px;
-    
-  }
+  .wel{font-size:24px;
+      padding:40px 15px 10px 15px;
+    }
 
   .save{
-    font-size:16px;
-    text-align:center;
-    padding:10px 15px;
-    line-height:1.6;
+    font-size: 16px;
+        padding: 0 20px 40px 20px;
   }
 .end{
     padding:20px;
