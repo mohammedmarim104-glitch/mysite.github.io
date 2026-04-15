@@ -54,15 +54,19 @@ header ul li a:hover {
 th{background:#E8B7C8;}
 td{background:#a7d8ff;
    text-align:center;
-   
   }
+th, td {
+  padding: 10px;}
 .tab {
       display:block;
   padding:50px;
   text-align:right;
        }
 table{width:50%;
-      height:400px;
+      height:auto;
+      border-collapse: collapse;
+      margin-left: auto; 
+      margin-right: 0;
      }
 .end{background:#E8B7C8;
 font-size:20px;
@@ -80,6 +84,10 @@ font-size:20px;
     flex-direction: column;
     align-items: center;
   }
+  header ul {
+    justify-content: center;
+    padding: 10px 0;
+  }
   header ul li{
     margin-right: 5px 0;}
  .title{
@@ -92,17 +100,18 @@ font-size:20px;
     padding:20px;
   }
 table{
-    width:100%;
+    width:95%;
     height:auto;
     font-size:12px;
+    margin: 0 auto;
+    float: none;
   }
 th, td{
-    padding:6px;
+    padding:8px 4px;
   }
 .end{
     padding:20px;
     font-size:15px;
   }
-
 }
 
