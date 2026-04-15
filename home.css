@@ -13,7 +13,7 @@ body {
   header{
          padding:10px;
          display: flex;
-         justify-content: space-between;
+         flex-direction: column;
          align-items: center;
        }
     header ul{display:flex;
@@ -48,14 +48,15 @@ header ul li a:hover {
        width:auto;
        text-align:right;}
 .wel{
-     text-align: right;
+     text-align: center;
      color:white;
-     padding:100px 40px;
+     font-size:24px;
+     padding:60px 20px;
     }
-.save{font-size:20px;
+.save{font-size:16px;
       color:white;
-      text-align: right;
-      padding:20px 100px;
+      text-align: center;
+      padding:10px 20px;
     }
 .end{background:#E8B7C8;
 font-size:20px;
