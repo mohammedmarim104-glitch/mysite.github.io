@@ -49,14 +49,12 @@ header ul li a:hover {
   padding: 6px 15px;
 }
 
-
 .title{color: white;
-       width: 800px;
-       text-align:right;
-       font-size:20px;
-    }
-
-
+  font-size: 20px;
+  width: auto; 
+  margin-left: auto;  
+  margin-right: 15%;   
+  text-align: right;}
 main {
   flex: 1;
   display: flex;
