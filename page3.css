@@ -135,6 +135,19 @@ header{
     align-items: center;
     padding: 15px 5px;
   }
+   header ul {
+    display: flex;
+    flex-wrap: wrap;     
+    justify-content: center; 
+    gap: 8px;             
+    padding: 10px 0;
+    width: 100%;
+  }
+   header ul li a {
+    padding: 8px 10px;    
+    font-size: 13px;      
+    white-space: nowrap;  
+  }
  .title{
     width:100%;
     text-align:center;
