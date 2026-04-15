@@ -20,6 +20,7 @@ body {
                list-style:none;
                gap:10px;
               margin-left: auto;
+              margin-right: 20px;
             }
 header ul li{
              margin: 0;
