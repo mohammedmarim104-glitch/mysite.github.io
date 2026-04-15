@@ -189,7 +189,7 @@ header{
     padding:10px;
   }
   .end{
-    position: relative;
+    position: fixed;
     padding:20px;
     font-size:15px;
   }
@@ -199,6 +199,7 @@ header{
   form{
     margin-right: 150px;
     margin-left: auto;
-  }
+    bottom:0;
+     }
 
 }      
