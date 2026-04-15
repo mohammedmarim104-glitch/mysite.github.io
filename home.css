@@ -50,10 +50,12 @@ header ul li a:hover {
 }
 
 .title {
- font-size: 20px;
-  color: white;
-  
-  text-align: center;
+.title{color: white;
+       width: 800px;
+       text-align:right;
+       font-size:20px;
+    }
+
 }
 
 main {
