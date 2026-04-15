@@ -17,8 +17,9 @@ body {
          align-items: center;
        }
     header ul{display:flex;
-             justify-content:center;
-             align-items:center;
+             justify-content:flex-end;
+             width:100%;
+             padding-right:20px;
              list-style:none;
              gap:10px;
             }
