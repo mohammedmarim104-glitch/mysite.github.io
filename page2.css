@@ -14,14 +14,14 @@ body {
          display: flex;
          justify-content: space-between;
          align-items: center;
+         flex-wrap: wrap;
        }
     header ul{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          list-style: none;
-          flex-wrap: wrap;
-          gap: 10px;
+         display:flex;
+        list-style:none;
+         gap:15px;
+        padding:0;
+        margin:0;
          }
 header ul li{
              margin-right: 30px;
@@ -46,7 +46,7 @@ header ul li a:hover {
   padding: 6px 15px;
 }
 .title{color: white;
-       width: 800px;
+       width: auto;
        text-align:right;
       }
 th{background:#E8B7C8;}
@@ -55,9 +55,9 @@ td{background:#a7d8ff;
    
   }
 .tab {
-      display: flex;
-      justify-content: flex-end; 
-      padding:50px;
+      display:block;
+  padding:50px;
+  text-align:right;
        }
 table{width:50%;
       height:400px;
