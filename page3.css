@@ -139,7 +139,7 @@ header{
     display: flex;
     flex-wrap: nowrap;     
     justify-content: center; 
-    gap: 4px;             
+    gap: 2px;             
     padding: 10px 0;
     width: 100%;
   }
