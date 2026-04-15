@@ -49,14 +49,13 @@ header ul li a:hover {
   padding: 6px 15px;
 }
 
-.title {
+
 .title{color: white;
        width: 800px;
        text-align:right;
        font-size:20px;
     }
 
-}
 
 main {
   flex: 1;
