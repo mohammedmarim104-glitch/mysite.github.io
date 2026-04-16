@@ -26,9 +26,6 @@ header ul{
           list-style: none;
          }
 
-header ul li{
-  margin-right:30px;
-} 
 header ul li a {
   padding: 6px 15px;
   border-radius: 50px;
@@ -54,6 +51,14 @@ header ul li a:hover {
         margin-left:auto;
         margin-right:15%;
        }
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; 
+  padding: 0 5%;
+} 
 th{background:#E8B7C8;}
 td{background:#a7d8ff;
    text-align:center;
