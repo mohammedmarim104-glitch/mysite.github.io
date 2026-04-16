@@ -26,9 +26,7 @@ body {
           align-items: center;
           list-style: none;
          }
-header ul li{
-             margin-right: 30px;
-            }
+
 header ul li a {
   padding: 6px 15px;
   border-radius: 50px;
@@ -36,6 +34,7 @@ header ul li a {
   color: white;
   display: inline-block;
   transition: 0.3s;
+  white-space: nowrap;
 }
 
 header ul li a:hover {
@@ -49,8 +48,10 @@ header ul li a:hover {
   padding: 6px 15px;
 }
 .title{color: white;
-   width: 800px;
+   width: auto;
    text-align:right;
+    margin-left:auto;
+    margin-right:15%;   
     }
 
 form div{
@@ -148,7 +149,7 @@ header{
     list-style: none;
   }
    header ul li {
-    margin: 0 !important;
+    margin: 0 ;
   }
    header ul li a {
     padding: 6px 8px;    
@@ -189,10 +190,9 @@ header{
     padding:10px;
   }
   .end{
-    position: fixed;
     padding:20px;
     font-size:15px;
-  }
+     }
 }   
  @media (min-width: 992px){
 
