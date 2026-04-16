@@ -174,7 +174,8 @@ header{
     padding: 5px;
     align-items:center; 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-top: 20px; 
   }
   
   form{ width: 90%;        
