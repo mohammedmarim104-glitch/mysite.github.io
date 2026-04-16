@@ -27,9 +27,7 @@ body {
           align-items: center;
           list-style: none;
          }
-header ul li{
-             margin-right: 30px;
-            }
+
 header ul li a {
   padding: 6px 15px;
   border-radius: 50px;
@@ -37,6 +35,7 @@ header ul li a {
   color: white;
   display: inline-block;
   transition: 0.3s;
+   white-space: nowrap;
 }
 
 header ul li a:hover {
@@ -51,8 +50,10 @@ header ul li a:hover {
 
 }
 .title{color: white;
-   width: 800px;
-   text-align:right;
+       width: auto ;
+       text-align:right;
+        margin-left:auto;
+        margin-right:15%; 
     }
 
 form div{
@@ -72,13 +73,13 @@ section{display:flex;
   justify-content: center;
   align-items: center;
   min-height: 80vh;
-  padding-top: 10px;
+  padding: 20px;
 }
  
 form{
   background: rgba(168, 92, 123, 0.2); 
   backdrop-filter: blur(10px);
-   padding: 20px;
+   padding: 30px;
   border-radius: 20px;
   width: 400px;
   display: flex;
@@ -129,6 +130,12 @@ font-size:20px;
      }
     
 @media(max-width:600px){
+  html, body {
+    height: 100%;
+    overflow: hidden; 
+    position: fixed; 
+    width: 100%;
+  }
 header{
     flex-direction: column;
     align-items: center;
@@ -140,7 +147,17 @@ header{
     display: flex;
     flex-wrap: nowrap;     
     justify-content: center; 
-    gap: 4px;             
+    gap: 2px;             
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+  }
+  header ul {
+    display: flex;
+    flex-wrap: nowrap;     
+    justify-content: center; 
+    gap: 2px;             
     padding: 0;
     margin: 0;
     width: 100%;
@@ -150,7 +167,7 @@ header{
     margin: 0 ;
                 }
   header ul li a {
-    padding: 6px 8px;    
+    padding: 4px 6px;    
     font-size: 11px;      
     white-space: nowrap;  
   }
@@ -161,16 +178,22 @@ header{
     font-size:15px;
   }
 
-  .form-section{
-    padding:30px 10px;
-  }
-
-  form{width: 65%;        
-        margin: auto;      
+  .form-section{   height: calc(100vh - 120px); 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding-top: 10px; 
+   }
+   
+  form{width: 90%; 
+       padding: 12px;
+       gap: 5px; 
+        margin:0 auto;      
          }
 
   form div{
-    margin-bottom:12px;
+    margin-bottom:2px;
   }
 
   label{
@@ -186,7 +209,7 @@ header{
     padding:10px;
   }
   .end{
-    position: relative;
+    
     padding:20px;
     font-size:15px;
   }
