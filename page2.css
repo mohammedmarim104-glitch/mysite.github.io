@@ -1,5 +1,9 @@
 *{margin:0;
   padding:0;
+  box-sizing:border-box;
+  }
+ html, body{
+  overflow-x: hidden;
 }
 body {
     background-image:url("back3.jpg");
@@ -9,23 +13,20 @@ body {
     background-attachment: fixed;
 }
 
- header{
-display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  padding: 20px 5%;
+ header{ padding:10px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
 }
 
-header ul{
-  display:flex;
-  list-style:none;
-  gap:15px;
-  padding:0;
-  margin:0;
-}
+header ul{ padding:10px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         }
 
 header ul li{
-  margin:0;
+  margin-right:30;
 } 
 header ul li a {
   padding: 6px 15px;
@@ -46,13 +47,10 @@ header ul li a:hover {
   border-radius: 50px;
   padding: 6px 15px;
 }
-.title {
-  color: white;
-  width: 100%;        
-  text-align: center; 
-  padding-left: 20%;  
-  font-size: 20px;
-}
+.title {color: white;
+        width: 800px;
+        text-align:right;
+       }
 th{background:#E8B7C8;}
 td{background:#a7d8ff;
    text-align:center;
