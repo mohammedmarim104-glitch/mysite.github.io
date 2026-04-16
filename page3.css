@@ -166,6 +166,11 @@ header{
   .form-section{
     padding:30px 10px;
   }
+   section {
+    min-height: calc(100vh - 180px); 
+    padding: 10px;
+    align-items: flex-start; 
+  }
 
   form{ width: 85%;        
         padding:15px;
