@@ -19,10 +19,11 @@ body {
          align-items: center;
 }
 
-header ul{ padding:10px;
+header ul{ 
          display: flex;
-         justify-content: space-between;
+         justify-content: center;
          align-items: center;
+          list-style: none;
          }
 
 header ul li{
