@@ -89,39 +89,49 @@ main {
 
 
 @media (max-width: 600px) {
-  header {
-    flex-direction: column;
-    text-align: center;
-    gap: 15px;
+  header { flex-direction: column;
+           align-items: center;
+           padding: 15px 0px;
+           width:100%;
+           overflow: hidden;
+         }
+   header ul {
+    display: flex;
+    flex-wrap: nowrap;     
+    justify-content: center; 
+    gap: 4px;             
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
   }
-
+header ul li {
+    margin: 0 ;
+  }
+  header ul li a {
+    padding: 6px 8px;    
+    font-size: 11px;      
+    white-space: nowrap;  
+  }
   .title {
     text-align: center;
     width: 100%;
     font-size:15px;
+     margin-bottom:15px;
   }
-
-  header ul {
-    justify-content: center;
-    width: 100%;
-  }
-
-  main {
+ main {
     align-items: center;
   }
-
-  .wel {
+.wel {
     text-align: center;
     padding: 20px;
   }
-
-  .save {
+.save {
     font-size: 16px;
     text-align: center; 
     padding: 0 20px 40px 20px;
   }
-
-  .end {
+.end {
     margin-top: 20px;
     font-size: 15px;
   }
