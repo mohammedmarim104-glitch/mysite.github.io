@@ -167,14 +167,15 @@ header{
     padding:30px 10px;
   }
 
-  form{width: 65%;        
-        
-    margin: auto;      
+  form{ width: 85%;        
+        padding:15px;
+        gap: 8px; 
+    margin:10px auto;      
    
      }
 
   form div{
-    margin-bottom:12px;
+    margin-bottom:5px;
   }
 
   label{
@@ -183,7 +184,7 @@ header{
 
   input{
     font-size:14px;
-    padding:8px;
+    padding:6px;
   }
 
   input[type="submit"]{
