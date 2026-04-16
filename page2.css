@@ -33,6 +33,7 @@ header ul li a {
   color: white;
   display: inline-block;
   transition: 0.3s;
+  white-space: nowrap;
 }
 
 header ul li a:hover {
