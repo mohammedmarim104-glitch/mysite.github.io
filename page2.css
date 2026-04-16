@@ -113,6 +113,9 @@ table{width:50%;
     margin-bottom:15px;
     font-size: 15px;
   }
+  main {
+    align-items: center;
+       }
 .tab{
     text-align: center;
     padding:10px;
