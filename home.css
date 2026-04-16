@@ -77,15 +77,16 @@ main {
   width: 100%;
 }
 
-.end {
-  background: #E8B7C8;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-  width: 100%;
-  position: relative;
-  margin-top: auto; 
-}
+.end {background: #E8B7C8;
+     font-size:20px;
+     width:100%;
+     text-align:center;
+     color:white;
+     padding:30px 80px;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     }
 
 
 @media (max-width: 600px) {
@@ -134,5 +135,5 @@ header ul li {
 .end {
     padding:20px;
     font-size: 15px;
-  }
+    }
 }
